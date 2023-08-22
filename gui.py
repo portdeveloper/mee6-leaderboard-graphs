@@ -16,7 +16,7 @@ def on_start():
     # Output CSV is always true
     server.csv()
 
-    plt.figure()
+    plt.figure(figsize=(10, 8))
     plt.suptitle(server.servername)
     plt.subplot(221)
     server.statuspie(statuslevels, statusnames)
@@ -34,6 +34,7 @@ def on_start():
 # Creating the main window
 root = tk.Tk()
 root.title("Mee6 Leaderboard Graphs")
+root.geometry("500x300")
 
 # Adding Guild ID input
 guild_id_label = tk.Label(root, text="Mee6 Server ID (REQUIRED):")
