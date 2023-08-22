@@ -2,3 +2,4 @@ __pycache__/
 mee6-leaderboard.csv
 .vscode
 build
+dist
