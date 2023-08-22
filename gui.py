@@ -33,7 +33,7 @@ def on_start():
 
 # Creating the main window
 root = tk.Tk()
-root.title("Mee6 Leaderboard Graphs")
+root.title("Mee6 Leaderboard Graphs UI")
 root.geometry("500x300")
 
 # Adding Guild ID input
